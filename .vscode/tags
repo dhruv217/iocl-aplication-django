@@ -1,0 +1,167 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+0001_initial.py	../customers/migrations/0001_initial.py	1;"	kind:file	line:1
+0001_initial.py	../users/migrations/0001_initial.py	1;"	kind:file	line:1
+ALLOWED_HOSTS	../ioclApp/settings.py	/^ALLOWED_HOSTS = []$/;"	kind:variable	line:28
+AUTH_PASSWORD_VALIDATORS	../ioclApp/settings.py	/^AUTH_PASSWORD_VALIDATORS = [$/;"	kind:variable	line:96
+AUTH_USER_MODEL	../ioclApp/settings.py	/^AUTH_USER_MODEL = 'users.CustomUser'$/;"	kind:variable	line:57
+AbstractUser	../users/models.py	/^from django.contrib.auth.models import AbstractUser$/;"	kind:namespace	line:2
+AppConfig	../customers/apps.py	/^from django.apps import AppConfig$/;"	kind:namespace	line:1
+AppConfig	../users/apps.py	/^from django.apps import AppConfig$/;"	kind:namespace	line:1
+BASE_DIR	../ioclApp/settings.py	/^BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))$/;"	kind:variable	line:16
+CustomUser	../users/admin.py	/^from .models import CustomUser$/;"	kind:namespace	line:6
+CustomUser	../users/forms.py	/^from .models import CustomUser$/;"	kind:namespace	line:2
+CustomUser	../users/models.py	/^class CustomUser(AbstractUser):$/;"	kind:class	line:4
+CustomUserAdmin	../users/admin.py	/^class CustomUserAdmin(UserAdmin):$/;"	kind:class	line:8
+CustomUserChangeForm	../users/admin.py	/^from .forms import CustomUserCreationForm, CustomUserChangeForm$/;"	kind:namespace	line:5
+CustomUserChangeForm	../users/forms.py	/^class CustomUserChangeForm(UserChangeForm):$/;"	kind:class	line:10
+CustomUserCreationForm	../users/admin.py	/^from .forms import CustomUserCreationForm, CustomUserChangeForm$/;"	kind:namespace	line:5
+CustomUserCreationForm	../users/forms.py	/^class CustomUserCreationForm(UserCreationForm):$/;"	kind:class	line:4
+Customer	../customers/models.py	/^class Customer(models.Model):$/;"	kind:class	line:8
+Customer	../customers/serializers.py	/^from customers.models import Customer$/;"	kind:namespace	line:2
+Customer	../customers/views.py	/^from customers.models import Customer$/;"	kind:namespace	line:2
+CustomerSerializer	../customers/serializers.py	/^class CustomerSerializer(serializers.ModelSerializer):$/;"	kind:class	line:5
+CustomerSerializer	../customers/views.py	/^from customers.serializers import CustomerSerializer$/;"	kind:namespace	line:3
+CustomerViewSet	../customers/views.py	/^class CustomerViewSet (viewsets.ModelViewSet):$/;"	kind:class	line:5
+CustomerViewSet	../ioclApp/urls.py	/^from customers.views import CustomerViewSet$/;"	kind:namespace	line:24
+CustomersConfig	../customers/apps.py	/^class CustomersConfig(AppConfig):$/;"	kind:class	line:4
+DATABASES	../ioclApp/settings.py	/^DATABASES = {$/;"	kind:variable	line:81
+DEBUG	../ioclApp/settings.py	/^DEBUG = True$/;"	kind:variable	line:26
+INSTALLED_APPS	../ioclApp/settings.py	/^INSTALLED_APPS = [$/;"	kind:variable	line:33
+LANGUAGE_CODE	../ioclApp/settings.py	/^LANGUAGE_CODE = 'en-us'$/;"	kind:variable	line:115
+MIDDLEWARE	../ioclApp/settings.py	/^MIDDLEWARE = [$/;"	kind:variable	line:45
+Meta	../customers/serializers.py	/^    class Meta:$/;"	kind:class	line:10
+Meta	../users/forms.py	/^    class Meta(UserCreationForm.Meta):$/;"	kind:class	line:6
+Meta	../users/forms.py	/^    class Meta:$/;"	kind:class	line:12
+MiddlewareMixin	../ioclApp/get_request_obj.py	/^from django.utils.deprecation import MiddlewareMixin$/;"	kind:namespace	line:5
+Migration	../customers/migrations/0001_initial.py	/^class Migration(migrations.Migration):$/;"	kind:class	line:8
+Migration	../users/migrations/0001_initial.py	/^class Migration(migrations.Migration):$/;"	kind:class	line:9
+REQUESTS	../ioclApp/get_request_obj.py	/^REQUESTS = {}$/;"	kind:variable	line:7
+REST_FRAMEWORK	../ioclApp/settings.py	/^REST_FRAMEWORK = {$/;"	kind:variable	line:132
+ROOT_URLCONF	../ioclApp/settings.py	/^ROOT_URLCONF = 'ioclApp.urls'$/;"	kind:variable	line:56
+ROUTER	../ioclApp/urls.py	/^ROUTER = routers.DefaultRouter()$/;"	kind:variable	line:26
+RequestMiddleware	../ioclApp/get_request_obj.py	/^class RequestMiddleware(MiddlewareMixin):$/;"	kind:class	line:18
+STATIC_URL	../ioclApp/settings.py	/^STATIC_URL = '\/static\/'$/;"	kind:variable	line:129
+TEMPLATES	../ioclApp/settings.py	/^TEMPLATES = [$/;"	kind:variable	line:59
+TIME_ZONE	../ioclApp/settings.py	/^TIME_ZONE = 'UTC'$/;"	kind:variable	line:117
+TestCase	../customers/tests.py	/^from django.test import TestCase$/;"	kind:namespace	line:1
+TestCase	../users/tests.py	/^from django.test import TestCase$/;"	kind:namespace	line:1
+USE_I18N	../ioclApp/settings.py	/^USE_I18N = True$/;"	kind:variable	line:119
+USE_L10N	../ioclApp/settings.py	/^USE_L10N = True$/;"	kind:variable	line:121
+USE_TZ	../ioclApp/settings.py	/^USE_TZ = True$/;"	kind:variable	line:123
+UserAdmin	../users/admin.py	/^from django.contrib.auth.admin import UserAdmin$/;"	kind:namespace	line:3
+UserChangeForm	../users/forms.py	/^from django.contrib.auth.forms import UserCreationForm, UserChangeForm$/;"	kind:namespace	line:1
+UserCreationForm	../users/forms.py	/^from django.contrib.auth.forms import UserCreationForm, UserChangeForm$/;"	kind:namespace	line:1
+UsersConfig	../users/apps.py	/^class UsersConfig(AppConfig):$/;"	kind:class	line:4
+WSGI_APPLICATION	../ioclApp/settings.py	/^WSGI_APPLICATION = 'ioclApp.wsgi.application'$/;"	kind:variable	line:75
+__init__.py	../customers/__init__.py	1;"	kind:file	line:1
+__init__.py	../customers/migrations/__init__.py	1;"	kind:file	line:1
+__init__.py	../ioclApp/__init__.py	1;"	kind:file	line:1
+__init__.py	../users/__init__.py	1;"	kind:file	line:1
+__init__.py	../users/migrations/__init__.py	1;"	kind:file	line:1
+__str__	../users/models.py	/^    def __str__(self):$/;"	kind:member	line:7
+add_form	../users/admin.py	/^    add_form = CustomUserCreationForm$/;"	kind:variable	line:9
+added_by	../customers/models.py	/^    added_by = models.ForeignKey(settings.AUTH_USER_MODEL,$/;"	kind:variable	line:19
+added_by	../customers/serializers.py	/^    added_by = serializers.StringRelatedField($/;"	kind:variable	line:6
+address	../customers/models.py	/^    address = models.TextField()$/;"	kind:variable	line:14
+admin	../customers/admin.py	/^from django.contrib import admin$/;"	kind:namespace	line:1
+admin	../ioclApp/urls.py	/^from django.contrib import admin$/;"	kind:namespace	line:16
+admin	../users/admin.py	/^from django.contrib import admin$/;"	kind:namespace	line:1
+admin.py	../customers/admin.py	1;"	kind:file	line:1
+admin.py	../users/admin.py	1;"	kind:file	line:1
+application	../ioclApp/wsgi.py	/^application = get_wsgi_application()$/;"	kind:variable	line:16
+apps.py	../customers/apps.py	1;"	kind:file	line:1
+apps.py	../users/apps.py	1;"	kind:file	line:1
+auth	../users/migrations/0001_initial.py	/^import django.contrib.auth.models$/;"	kind:namespace	line:3
+auth	../users/migrations/0001_initial.py	/^import django.contrib.auth.validators$/;"	kind:namespace	line:4
+contrib	../users/migrations/0001_initial.py	/^import django.contrib.auth.models$/;"	kind:namespace	line:3
+contrib	../users/migrations/0001_initial.py	/^import django.contrib.auth.validators$/;"	kind:namespace	line:4
+createdOn	../customers/models.py	/^    createdOn = models.DateTimeField(auto_now_add=True)$/;"	kind:variable	line:12
+current_thread	../ioclApp/get_request_obj.py	/^from threading import current_thread$/;"	kind:namespace	line:4
+db	../customers/migrations/0001_initial.py	/^import django.db.models.deletion$/;"	kind:namespace	line:5
+deletion	../customers/migrations/0001_initial.py	/^import django.db.models.deletion$/;"	kind:namespace	line:5
+dependencies	../customers/migrations/0001_initial.py	/^    dependencies = [$/;"	kind:variable	line:12
+dependencies	../users/migrations/0001_initial.py	/^    dependencies = [$/;"	kind:variable	line:13
+django	../customers/migrations/0001_initial.py	/^import django.db.models.deletion$/;"	kind:namespace	line:5
+django	../users/migrations/0001_initial.py	/^import django.contrib.auth.models$/;"	kind:namespace	line:3
+django	../users/migrations/0001_initial.py	/^import django.contrib.auth.validators$/;"	kind:namespace	line:4
+django	../users/migrations/0001_initial.py	/^import django.utils.timezone$/;"	kind:namespace	line:6
+email	../customers/models.py	/^    email = models.EmailField()$/;"	kind:variable	line:18
+execute_from_command_line	../manage.py	/^        from django.core.management import execute_from_command_line$/;"	kind:namespace	line:8
+fields	../customers/migrations/0001_initial.py	/^            fields=[$/;"	kind:variable	line:19
+fields	../customers/serializers.py	/^        fields = ('url', 'name', 'address', 'photo_url',$/;"	kind:variable	line:12
+fields	../users/forms.py	/^        fields = ('username', 'email', 'mobile_number')$/;"	kind:variable	line:8
+fields	../users/forms.py	/^        fields = ('username', 'email', 'mobile_number')/;"	kind:variable	line:14
+fields	../users/migrations/0001_initial.py	/^            fields=[$/;"	kind:variable	line:20
+form	../users/admin.py	/^    form = CustomUserChangeForm$/;"	kind:variable	line:10
+forms.py	../users/forms.py	1;"	kind:file	line:1
+get_request_obj	../customers/models.py	/^from ioclApp.get_request_obj import get_request_obj$/;"	kind:namespace	line:3
+get_request_obj	../ioclApp/get_request_obj.py	/^def get_request_obj():$/;"	kind:function	line:9
+get_request_obj.py	../ioclApp/get_request_obj.py	1;"	kind:file	line:1
+get_user_model	../users/admin.py	/^from django.contrib.auth import get_user_model$/;"	kind:namespace	line:2
+get_wsgi_application	../ioclApp/wsgi.py	/^from django.core.wsgi import get_wsgi_application$/;"	kind:namespace	line:12
+include	../ioclApp/urls.py	/^from django.urls import path, include$/;"	kind:namespace	line:17
+initial	../customers/migrations/0001_initial.py	/^    initial = True$/;"	kind:variable	line:10
+initial	../users/migrations/0001_initial.py	/^    initial = True$/;"	kind:variable	line:11
+land_details	../customers/models.py	/^    land_details = models.TextField()$/;"	kind:variable	line:16
+list_display	../users/admin.py	/^    list_display = ['email', 'username',]$/;"	kind:variable	line:12
+manage.py	../manage.py	1;"	kind:file	line:1
+managers	../users/migrations/0001_initial.py	/^            managers=[$/;"	kind:variable	line:41
+many	../customers/serializers.py	/^        many=False,$/;"	kind:variable	line:7
+migrations	../customers/migrations/0001_initial.py	/^from django.db import migrations, models$/;"	kind:namespace	line:4
+migrations	../users/migrations/0001_initial.py	/^from django.db import migrations, models$/;"	kind:namespace	line:5
+mobile_number	../customers/models.py	/^    mobile_number = models.CharField(max_length=10)$/;"	kind:variable	line:17
+mobile_number	../users/models.py	/^    mobile_number = models.CharField(max_length=10, blank=True, null=True)$/;"	kind:variable	line:5
+model	../customers/serializers.py	/^        model = Customer$/;"	kind:variable	line:11
+model	../users/admin.py	/^    model = CustomUser$/;"	kind:variable	line:11
+model	../users/forms.py	/^        model = CustomUser$/;"	kind:variable	line:13
+model	../users/forms.py	/^        model = CustomUser$/;"	kind:variable	line:7
+models	../customers/migrations/0001_initial.py	/^from django.db import migrations, models$/;"	kind:namespace	line:4
+models	../customers/migrations/0001_initial.py	/^import django.db.models.deletion$/;"	kind:namespace	line:5
+models	../customers/models.py	/^from django.db import models$/;"	kind:namespace	line:1
+models	../users/migrations/0001_initial.py	/^from django.db import migrations, models$/;"	kind:namespace	line:5
+models	../users/migrations/0001_initial.py	/^import django.contrib.auth.models$/;"	kind:namespace	line:3
+models	../users/models.py	/^from django.db import models$/;"	kind:namespace	line:1
+models.py	../customers/models.py	1;"	kind:file	line:1
+models.py	../users/models.py	1;"	kind:file	line:1
+name	../customers/apps.py	/^    name = 'customers'$/;"	kind:variable	line:5
+name	../customers/migrations/0001_initial.py	/^            name='Customer',$/;"	kind:variable	line:18
+name	../customers/models.py	/^    name = models.CharField(max_length=100, blank=True, default='')$/;"	kind:variable	line:13
+name	../users/apps.py	/^    name = 'users'$/;"	kind:variable	line:5
+name	../users/migrations/0001_initial.py	/^            name='CustomUser',$/;"	kind:variable	line:19
+operations	../customers/migrations/0001_initial.py	/^    operations = [$/;"	kind:variable	line:16
+operations	../users/migrations/0001_initial.py	/^    operations = [$/;"	kind:variable	line:17
+options	../users/migrations/0001_initial.py	/^            options={$/;"	kind:variable	line:36
+os	../ioclApp/settings.py	/^import os$/;"	kind:namespace	line:13
+os	../ioclApp/wsgi.py	/^import os$/;"	kind:namespace	line:10
+os	../manage.py	/^import os$/;"	kind:namespace	line:2
+path	../ioclApp/urls.py	/^from django.urls import path, include$/;"	kind:namespace	line:17
+photo_url	../customers/models.py	/^    photo_url = models.URLField(max_length=500)$/;"	kind:variable	line:15
+process_request	../ioclApp/get_request_obj.py	/^    def process_request(self, request):$/;"	kind:member	line:22
+queryset	../customers/views.py	/^    queryset = Customer.objects.all()$/;"	kind:variable	line:9
+read_only	../customers/serializers.py	/^        read_only=True$/;"	kind:variable	line:8
+render	../users/views.py	/^from django.shortcuts import render$/;"	kind:namespace	line:1
+routers	../ioclApp/urls.py	/^from rest_framework import routers$/;"	kind:namespace	line:18
+save	../customers/models.py	/^    def save(self, *args, **kwargs):$/;"	kind:member	line:22
+serializer_class	../customers/views.py	/^    serializer_class = CustomerSerializer/;"	kind:variable	line:10
+serializers	../customers/serializers.py	/^from rest_framework import serializers$/;"	kind:namespace	line:1
+serializers.py	../customers/serializers.py	1;"	kind:file	line:1
+settings	../customers/migrations/0001_initial.py	/^from django.conf import settings$/;"	kind:namespace	line:3
+settings	../customers/models.py	/^from ioclApp import settings$/;"	kind:namespace	line:2
+settings.py	../ioclApp/settings.py	1;"	kind:file	line:1
+sys	../manage.py	/^import sys$/;"	kind:namespace	line:3
+tests.py	../customers/tests.py	1;"	kind:file	line:1
+tests.py	../users/tests.py	1;"	kind:file	line:1
+timezone	../users/migrations/0001_initial.py	/^import django.utils.timezone$/;"	kind:namespace	line:6
+urlpatterns	../ioclApp/urls.py	/^urlpatterns = [$/;"	kind:variable	line:29
+urls.py	../ioclApp/urls.py	1;"	kind:file	line:1
+utils	../users/migrations/0001_initial.py	/^import django.utils.timezone$/;"	kind:namespace	line:6
+validators	../users/migrations/0001_initial.py	/^import django.contrib.auth.validators$/;"	kind:namespace	line:4
+views.py	../customers/views.py	1;"	kind:file	line:1
+views.py	../users/views.py	1;"	kind:file	line:1
+viewsets	../customers/views.py	/^from rest_framework import viewsets$/;"	kind:namespace	line:1
+wsgi.py	../ioclApp/wsgi.py	1;"	kind:file	line:1
